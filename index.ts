@@ -8,10 +8,12 @@ import chalk from "chalk";
 import cookieParser from "cookie-parser";
 import { cookie } from "express-validator";
 import ModelRouter from "./routes/ModelRoutes";
+import logger from "./middleware/logger.middleware";
 
 const app: Express = express();
 app.use(express.json());
 app.use(cookieParser())
+app.use(logger)
 
 const port = process.env.PORT || 3000;
 

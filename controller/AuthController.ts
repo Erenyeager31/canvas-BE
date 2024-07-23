@@ -11,8 +11,7 @@ import { sendEmail } from "../services/emailDispatchPasswordRequest";
 import { resetPasswordService } from "../services/reset.password.service";
 import { sendEmailGenericTemplate } from "../services/emailDispatchGeneric";
 
-// demo --> Dishant , dishant31 / 1234567890 / dishantrocks
-// demo --> testUser , tesstpassword
+//// Dishant31, dishantshah3133@gmail.com, dishant123
 
 interface emailData {
   username: string;
